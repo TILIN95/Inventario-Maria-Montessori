@@ -1,91 +1,69 @@
-﻿using System;
+﻿using InventarioInstitutoMariaMontessori.Formularios.Configuracion;
+using InventarioInstitutoMariaMontessori.Formularios.Gestion;
+using System;
 using System.Windows.Forms;
-using InventarioInstitutoMariaMontessori.Modelos;
 
 namespace InventarioInstitutoMariaMontessori.Formularios
 {
     public partial class frmPrincipal : Form
     {
-        private readonly Usuario usuarioActual;
-
-        public frmPrincipal(Usuario usuario)
+        public frmPrincipal(Modelos.Usuario usuario)
         {
             InitializeComponent();
-            usuarioActual = usuario;
-            ConfigurarFormulario();
         }
 
-        private void ConfigurarFormulario()
+        private void productosMenuItem_Click(object sender, EventArgs e)
         {
-            // Configurar la barra de estado
-            toolStripStatusUsuario.Text = $"Usuario: {usuarioActual.Nombre}";
-            toolStripStatusFecha.Text = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
-
-            // Configurar permisos según el rol del usuario
-            ConfigurarPermisos();
+            frmProductos productosForm = new frmProductos();
+            productosForm.Show();
         }
 
-        private void ConfigurarPermisos()
+        private void proveedoresMenuItem_Click(object sender, EventArgs e)
         {
-            // Aquí puedes configurar la visibilidad de los menús según el rol
-            switch (usuarioActual.Rol)
-            {
-                case "Administrador":
-                    // Acceso total
-                    break;
-                case "Usuario":
-                    // Restricciones para usuario normal
-                    menuUsuarios.Visible = false;
-                    menuConfiguracion.Visible = false;
-                    break;
-            }
+            frmProveedores proveedoresForm = new frmProveedores();
+            proveedoresForm.Show();
         }
 
-        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        private void usuariosMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Está seguro que desea salir?", "Confirmar",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+            frmUsuarios usuariosForm = new frmUsuarios();
+            usuariosForm.Show();
         }
 
-        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void reportesMenuItem_Click(object sender, EventArgs e)
         {
-            var frmProductos = new frmProductos();
-            frmProductos.MdiParent = this;
-            frmProductos.Show();
+            frmReportes reportesForm = new frmReportes();
+            reportesForm.Show();
         }
 
-        private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void rolesPermisosMenuItem_Click(object sender, EventArgs e)
         {
-            var frmCategorias = new frmCategorias();
-            frmCategorias.MdiParent = this;
-            frmCategorias.Show();
+            frmRolesPermisos rolesPermisosForm = new frmRolesPermisos();
+            rolesPermisosForm.Show();
         }
 
-        private void inventarioToolStripMenuItem_Click(object sender, EventArgs e)
+        private void categoriasMenuItem_Click(object sender, EventArgs e)
         {
-            var frmInventario = new frmInventario();
-            frmInventario.MdiParent = this;
-            frmInventario.Show();
+            frmCategorias categoriasForm = new frmCategorias();
+            categoriasForm.Show();
         }
 
-        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ubicacionesMenuItem_Click(object sender, EventArgs e)
         {
-            var frmUsuarios = new frmUsuarios();
-            frmUsuarios.MdiParent = this;
-            frmUsuarios.Show();
+            frmUbicaciones ubicacionesForm = new frmUbicaciones();
+            ubicacionesForm.Show();
         }
 
-        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        private void mantenimientosMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Está seguro que desea cerrar sesión?", "Confirmar",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                this.Close();
-                new frmLogin().Show();
-            }
+            frmMantenimientos mantenimientosForm = new frmMantenimientos();
+            mantenimientosForm.Show();
+        }
+
+        private void alertasMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAlertas alertasForm = new frmAlertas();
+            alertasForm.Show();
         }
     }
 }

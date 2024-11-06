@@ -8,5 +8,6 @@ namespace InventarioInstitutoMariaMontessori.Modelos
 {
     internal class Ubicacion
     {
+        public object Nombre { get; internal set; }
     }
 }

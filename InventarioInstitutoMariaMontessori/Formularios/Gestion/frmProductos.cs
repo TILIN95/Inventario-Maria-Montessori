@@ -1,269 +1,131 @@
-﻿// frmProductos.cs
+﻿using InventarioInstitutoMariaMontessori.Modelos;
+using InventarioInstitutoMariaMontessori.Servicios;
 using System;
 using System.Windows.Forms;
-using InventarioInstitutoMariaMontessori.Modelos;
-using InventarioInstitutoMariaMontessori.Servicios;
-using System.Collections.Generic;
-using InventarioInstitutoMariaMontessori.Validaciones;
 
-namespace InventarioInstitutoMariaMontessori.Formularios.Gestion
+public partial class frmProductos : Form
 {
-    public partial class frmProductos : Form
+    private int? productoSeleccionadoId = null;
+    private ProductoService _productoService;
+
+    public frmProductos()
     {
-        private readonly ProductoService _productoService;
-        private readonly CategoriaService _categoriaService;
-        private readonly UbicacionService _ubicacionService;
-        private Producto productoSeleccionado;
-        private object cmbCategoria;
-        private object cmbUbicacion;
-        private object dgvProductos;
-        private object txtCodigo;
-        private object txtNombre;
-        private object txtStock;
-        private object txtDescripcion;
-        private object txtStockMinimo;
+        InitializeComponent();
+        _productoService = new ProductoService(); // Instancia de la clase que maneja la lógica de productos
+        CargarCombos();
+        ActualizarGrid();
+    }
 
-        public frmProductos()
+    private void BtnGuardar_Click(object sender, EventArgs e)
+    {
+        var producto = new Producto
         {
-            InitializeComponent();
-            _productoService = new ProductoService();
-            _categoriaService = new CategoriaService();
-            _ubicacionService = new UbicacionService();
-            ConfigurarFormulario();
+            ID_Producto = productoSeleccionadoId ?? 0,
+            CodigoPatrimonio = txtCodigoPatrimonio.Text,
+            Nombre = txtNombre.Text,
+            Cantidad = (int)numCantidad.Value,
+            Estado = cboEstado.Text,
+            Precio = numPrecio.Value,
+            FechaAdquisicion = dtpFechaAdquisicion.Value,
+            ID_Proveedor = (int?)cboProveedor.SelectedValue,
+            Descripcion = txtDescripcion.Text,
+            ID_Categoria = (int?)cboCategoria.SelectedValue,
+            ID_Ubicacion = (int?)cboUbicacion.SelectedValue,
+            Modelo = txtModelo.Text,
+            Serie = txtSerie.Text
+        };
+
+        var resultado = _productoService.Guardar(producto);
+        if (string.IsNullOrEmpty(resultado))
+        {
+            MessageBox.Show("Producto guardado exitosamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            LimpiarFormulario();
+            ActualizarGrid();
+        }
+        else
+        {
+            MessageBox.Show($"Error al guardar el producto: {resultado}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+    }
+
+    private void BtnEliminar_Click(object sender, EventArgs e)
+    {
+        if (productoSeleccionadoId == null)
+        {
+            MessageBox.Show("Seleccione un producto para eliminar", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            return;
         }
 
-        private void InitializeComponent()
+        var resultado = _productoService.Eliminar(productoSeleccionadoId.Value);
+        if (string.IsNullOrEmpty(resultado))
         {
-            throw new NotImplementedException();
+            MessageBox.Show("Producto eliminado exitosamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            LimpiarFormulario();
+            ActualizarGrid();
         }
-
-        private void ConfigurarFormulario()
+        else
         {
-            CargarCategorias();
-            CargarUbicaciones();
-            CargarProductos();
-            LimpiarCampos();
+            MessageBox.Show($"Error al eliminar el producto: {resultado}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+    }
 
-        private void CargarCategorias()
+    private void DgvProductos_CellClick(object sender, DataGridViewCellEventArgs e)
+    {
+        if (e.RowIndex >= 0)
         {
-            try
-            {
-                cmbCategoria.DataSource = _categoriaService.ObtenerTodos();
-                cmbCategoria.DisplayMember = "Nombre";
-                cmbCategoria.ValueMember = "ID_Categoria"; // Asegúrate que este sea el nombre correcto
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al cargar categorías: {ex.Message}", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            var idProducto = Convert.ToInt32(dgvProductos.Rows[e.RowIndex].Cells["ID"].Value);
+            CargarProducto(idProducto);
         }
+    }
 
-        private void CargarUbicaciones()
+    private void CargarProducto(int idProducto)
+    {
+        var producto = _productoService.ObtenerProducto(idProducto);
+        if (producto != null)
         {
-            try
-            {
-                cmbUbicacion.DataSource = _ubicacionService.ObtenerTodos();
-                cmbUbicacion.DisplayMember = "UbicacionFisica"; // Ajusta según el modelo
-                cmbUbicacion.ValueMember = "ID_Ubicacion"; // Asegúrate que este sea el nombre correcto
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al cargar ubicaciones: {ex.Message}", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            productoSeleccionadoId = producto.ID_Producto;
+            txtCodigoPatrimonio.Text = producto.CodigoPatrimonio;
+            txtNombre.Text = producto.Nombre;
+            numCantidad.Value = producto.Cantidad;
+            cboEstado.Text = producto.Estado;
+            numPrecio.Value = producto.Precio;
+            dtpFechaAdquisicion.Value = producto.FechaAdquisicion;
+            cboProveedor.SelectedValue = producto.ID_Proveedor;
+            txtDescripcion.Text = producto.Descripcion;
+            cboCategoria.SelectedValue = producto.ID_Categoria;
+            cboUbicacion.SelectedValue = producto.ID_Ubicacion;
+            txtModelo.Text = producto.Modelo;
+            txtSerie.Text = producto.Serie;
         }
+    }
 
-        private void CargarProductos()
-        {
-            try
-            {
-                dgvProductos.DataSource = _productoService.ObtenerProductos();
-                ConfigurarColumnasDGV();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al cargar productos: {ex.Message}", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
+    private void CargarCombos()
+    {
+        // Aquí se cargarán los datos de proveedores, categorías y ubicaciones
+        cboProveedor.DataSource = _productoService.ObtenerProveedores();
+        cboCategoria.DataSource = _productoService.ObtenerCategorias();
+        cboUbicacion.DataSource = _productoService.ObtenerUbicaciones();
+    }
 
-        private void ConfigurarColumnasDGV()
-        {
-            dgvProductos.Columns["IdProducto"].Visible = false;
-            dgvProductos.Columns["CodigoPatrimonio"].HeaderText = "Código Patrimonio";
-            dgvProductos.Columns["Nombre"].HeaderText = "Nombre";
-            dgvProductos.Columns["Descripcion"].HeaderText = "Descripción";
-            dgvProductos.Columns["Cantidad"].HeaderText = "Cantidad";
-            dgvProductos.Columns["Precio"].HeaderText = "Precio";
-            dgvProductos.Columns["ID_Categoria"].Visible = false;
-            dgvProductos.Columns["ID_Ubicacion"].Visible = false;
+    private void ActualizarGrid()
+    {
+        dgvProductos.DataSource = _productoService.ObtenerTodosLosProductos();
+    }
 
-            foreach (DataGridViewColumn columna in dgvProductos.Columns)
-            {
-                columna.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            }
-        }
-
-        private void btnNuevo_Click(object sender, EventArgs e)
-        {
-            LimpiarCampos();
-        }
-
-        private void btnGuardar_Click(object sender, EventArgs e)
-        {
-            if (!ValidarCampos()) return;
-
-            try
-            {
-                var producto = new Producto
-                {
-                    IdProducto = productoSeleccionado?.IdProducto ?? 0,
-                    CodigoPatrimonio = txtCodigo.Text,
-                    Nombre = txtNombre.Text,
-                    Descripcion = txtDescripcion.Text,
-                    Cantidad = int.Parse(txtStock.Text),
-                    Precio = decimal.Parse(txtStockMinimo.Text),
-                    ID_Categoria = (int)cmbCategoria.SelectedValue,
-                    ID_Ubicacion = (int)cmbUbicacion.SelectedValue
-                };
-
-                ValidacionProducto.Validar(producto); // Validación aquí
-
-                if (productoSeleccionado == null)
-                    _productoService.Agregar(producto);
-                else
-                    _productoService.Actualizar(producto);
-
-                MessageBox.Show("Producto guardado exitosamente", "Éxito",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                CargarProductos();
-                LimpiarCampos();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al guardar el producto: {ex.Message}", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void btnEliminar_Click(object sender, EventArgs e)
-        {
-            if (productoSeleccionado == null)
-            {
-                MessageBox.Show("Debe seleccionar un producto para eliminar", "Advertencia",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            if (MessageBox.Show("¿Está seguro que desea eliminar este producto?", "Confirmar",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                try
-                {
-                    _productoService.Eliminar(productoSeleccionado.IdProducto);
-                    MessageBox.Show("Producto eliminado exitosamente", "Éxito",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    CargarProductos();
-                    LimpiarCampos();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error al eliminar el producto: {ex.Message}", "Error",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-        }
-
-        private void dgvProductos_SelectionChanged(object sender, EventArgs e)
-        {
-            if (dgvProductos.CurrentRow != null)
-            {
-                productoSeleccionado = (Producto)dgvProductos.CurrentRow.DataBoundItem;
-                CargarDatosProducto();
-            }
-        }
-
-        private void CargarDatosProducto()
-        {
-            if (productoSeleccionado != null)
-            {
-                txtCodigo.Text = productoSeleccionado.CodigoPatrimonio;
-                txtNombre.Text = productoSeleccionado.Nombre;
-                txtDescripcion.Text = productoSeleccionado.Descripcion;
-                txtStock.Text = productoSeleccionado.Cantidad.ToString();
-                txtStockMinimo.Text = productoSeleccionado.Precio.ToString("F2");
-                cmbCategoria.SelectedValue = productoSeleccionado.ID_Categoria;
-                cmbUbicacion.SelectedValue = productoSeleccionado.ID_Ubicacion;
-            }
-        }
-
-        private void LimpiarCampos()
-        {
-            productoSeleccionado = null;
-            txtCodigo.Clear();
-            txtNombre.Clear();
-            txtDescripcion.Clear();
-            txtStock.Clear();
-            txtStockMinimo.Clear();
-            cmbCategoria.SelectedIndex = -1;
-            cmbUbicacion.SelectedIndex = -1;
-            txtCodigo.Focus();
-        }
-
-        private bool ValidarCampos()
-        {
-            if (string.IsNullOrEmpty(txtCodigo.Text))
-            {
-                MessageBox.Show("Debe ingresar un código", "Advertencia",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtCodigo.Focus();
-                return false;
-            }
-
-            if (string.IsNullOrEmpty(txtNombre.Text))
-            {
-                MessageBox.Show("Debe ingresar un nombre", "Advertencia",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtNombre.Focus();
-                return false;
-            }
-
-            if (!int.TryParse(txtStock.Text, out _))
-            {
-                MessageBox.Show("La cantidad debe ser un número válido", "Advertencia",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtStock.Focus();
-                return false;
-            }
-
-            if (!decimal.TryParse(txtStockMinimo.Text, out _))
-            {
-                MessageBox.Show("El precio debe ser un número válido", "Advertencia",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtStockMinimo.Focus();
-                return false;
-            }
-
-            if (cmbCategoria.SelectedIndex == -1)
-            {
-                MessageBox.Show("Debe seleccionar una categoría", "Advertencia",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                cmbCategoria.Focus();
-                return false;
-            }
-
-            if (cmbUbicacion.SelectedIndex == -1)
-            {
-                MessageBox.Show("Debe seleccionar una ubicación", "Advertencia",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                cmbUbicacion.Focus();
-                return false;
-            }
-
-            return true;
-        }
+    private void LimpiarFormulario()
+    {
+        productoSeleccionadoId = null;
+        txtCodigoPatrimonio.Clear();
+        txtNombre.Clear();
+        numCantidad.Value = 1;
+        cboEstado.SelectedIndex = -1;
+        numPrecio.Value = 0;
+        dtpFechaAdquisicion.Value = DateTime.Today;
+        cboProveedor.SelectedIndex = -1;
+        txtDescripcion.Clear();
+        cboCategoria.SelectedIndex = -1;
+        cboUbicacion.SelectedIndex = -1;
+        txtModelo.Clear();
+        txtSerie.Clear();
     }
 }

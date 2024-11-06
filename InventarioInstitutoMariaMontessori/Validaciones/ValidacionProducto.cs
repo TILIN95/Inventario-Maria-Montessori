@@ -1,20 +1,29 @@
-﻿using InventarioInstitutoMariaMontessori.Modelos;
+﻿// Validaciones/ValidacionProducto.cs
 using System;
+using InventarioInstitutoMariaMontessori.Modelos;
 
 namespace InventarioInstitutoMariaMontessori.Validaciones
 {
-    internal class ValidacionProducto
+    public class ValidacionProducto
     {
-        public static bool Validar(Producto producto)
+        public static string ValidarProducto(Producto producto)
         {
-            if (string.IsNullOrWhiteSpace(producto.Nombre))
-                throw new ArgumentException("El nombre no puede estar vacío.");
+            if (string.IsNullOrEmpty(producto.CodigoPatrimonio))
+                return "El código de patrimonio es requerido.";
+
+            if (string.IsNullOrEmpty(producto.Nombre))
+                return "El nombre del producto es requerido.";
+
             if (producto.Cantidad < 0)
-                throw new ArgumentException("La cantidad no puede ser negativa.");
+                return "La cantidad no puede ser negativa.";
+
             if (producto.Precio < 0)
-                throw new ArgumentException("El precio no puede ser negativo.");
-            // Agregar más validaciones según sea necesario
-            return true;
+                return "El precio no puede ser negativo.";
+
+            if (producto.FechaAdquisicion > DateTime.Now)
+                return "La fecha de adquisición no puede ser futura.";
+
+            return string.Empty;
         }
     }
 }

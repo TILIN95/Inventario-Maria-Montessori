@@ -8,5 +8,9 @@ namespace InventarioInstitutoMariaMontessori.Servicios
 {
     internal class ProveedorService
     {
+        internal object ObtenerTodos()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

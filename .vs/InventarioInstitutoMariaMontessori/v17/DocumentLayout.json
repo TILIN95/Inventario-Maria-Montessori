@@ -3,48 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|c:\\users\\msi\\source\\repos\\inventarioinstitutomariamontessori\\inventarioinstitutomariamontessori\\datos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\datos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\configuracion\\configuracionapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\configuracion\\configuracionapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\gestion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\gestion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\gestion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\gestion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\gestion\\frmproductos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\gestion\\frmproductos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\validaciones\\validacionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\validaciones\\validacionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\datos\\productorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\datos\\productorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\gestion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\gestion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\servicios\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\servicios\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\gestion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\gestion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\datos\\productorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\datos\\productorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\validaciones\\validacionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\validaciones\\validacionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|c:\\users\\msi\\source\\repos\\inventarioinstitutomariamontessori\\inventarioinstitutomariamontessori\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|c:\\users\\msi\\source\\repos\\inventarioinstitutomariamontessori\\inventarioinstitutomariamontessori\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|c:\\users\\msi\\source\\repos\\inventarioinstitutomariamontessori\\inventarioinstitutomariamontessori\\datos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\datos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\configuracion\\configuracionapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\configuracion\\configuracionapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|c:\\users\\msi\\source\\repos\\inventarioinstitutomariamontessori\\inventarioinstitutomariamontessori\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\modelos\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\modelos\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\modelos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\modelos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|c:\\users\\msi\\source\\repos\\inventarioinstitutomariamontessori\\inventarioinstitutomariamontessori\\modelos\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\modelos\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\servicios\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\servicios\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\servicios\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,36 +143,12 @@
       "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\validaciones\\validacionrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\validaciones\\validacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\validaciones\\validacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\servicios\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\servicios\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\modelos\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\modelos\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\modelos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\modelos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\configuracion\\frmalertas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -157,10 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\gestion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\gestion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\inventarioinstitutomariamontessori\\formularios\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5632B72-8AB2-4208-83E1-C5A07E3A3A16}|InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori.csproj|solutionrelative:inventarioinstitutomariamontessori\\formularios\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -174,55 +190,277 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Producto.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Modelos\\Producto.cs",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Producto.cs",
               "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Modelos\\Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA1AAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:19:38.281Z"
+              "WhenOpened": "2024-10-25T18:19:38.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.Designer.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.Designer.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAADwv5MAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:20:50.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:36:23.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidacionProducto.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionProducto.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionProducto.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionProducto.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionProducto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:36:08.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\ProductoRepositorio.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Datos\\ProductoRepositorio.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\ProductoRepositorio.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Datos\\ProductoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T15:43:08.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProductoService.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Servicios\\ProductoService.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Servicios\\ProductoService.cs",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Servicios\\ProductoService.cs",
               "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Servicios\\ProductoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:16:50.203Z"
+              "WhenOpened": "2024-10-25T18:16:50.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "frmProductos.Designer.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.Designer.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.Designer.cs",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.Designer.cs",
               "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:07:20.426Z"
+              "WhenOpened": "2024-10-25T18:07:20.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "frmProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T18:07:42.495Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmProductos.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs",
               "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMMAAAAVAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwFcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:07:15.388Z"
+              "WhenOpened": "2024-10-25T18:07:15.388Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAswDQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:03:24.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:55:29.144Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.Designer.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.Designer.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAowHkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:17:57.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConexionDB.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\ConexionDB.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Datos\\ConexionDB.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\ConexionDB.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Datos\\ConexionDB.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowD4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T15:42:54.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConfiguracionApp.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Configuracion\\ConfiguracionApp.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Configuracion\\ConfiguracionApp.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Configuracion\\ConfiguracionApp.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Configuracion\\ConfiguracionApp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:38:27.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:20:52.397Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Categoria.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Modelos\\Categoria.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Categoria.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Modelos\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:34:12.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Usuario.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Modelos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Usuario.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Modelos\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:11:57.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Rol.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Modelos\\Rol.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Rol.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Modelos\\Rol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:34:03.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Proveedor.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Modelos\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Proveedor.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Modelos\\Proveedor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:11:53.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Ubicacion.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Ubicacion.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Modelos\\Ubicacion.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Ubicacion.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Modelos\\Ubicacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:34:22.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Program.cs",
+              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Program.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Program.cs",
+              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T18:35:52.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "CategoriaService.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Servicios\\CategoriaService.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Servicios\\CategoriaService.cs",
@@ -234,79 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\ProductoRepositorio.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Datos\\ProductoRepositorio.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\ProductoRepositorio.cs",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Datos\\ProductoRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T15:43:08.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ValidacionProducto.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionProducto.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionProducto.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionProducto.cs",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionProducto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:36:08.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConexionDB.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\ConexionDB.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Datos\\ConexionDB.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\ConexionDB.cs",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Datos\\ConexionDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T15:42:54.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Program.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Program.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Program.cs",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:35:52.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmProductos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:07:42.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConfiguracionApp.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Configuracion\\ConfiguracionApp.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Configuracion\\ConfiguracionApp.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Configuracion\\ConfiguracionApp.cs",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Configuracion\\ConfiguracionApp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:38:27.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "UbicacionService.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Servicios\\UbicacionService.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Servicios\\UbicacionService.cs",
@@ -314,11 +480,12 @@
               "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Servicios\\UbicacionService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:35:15.645Z"
+              "WhenOpened": "2024-10-25T17:35:15.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "ManualUsuario.pdf",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Docs\\ManualUsuario.pdf",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Docs\\ManualUsuario.pdf",
@@ -330,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "Instalacion.md",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Docs\\Instalacion.md",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Docs\\Instalacion.md",
@@ -342,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Servicios\\UsuarioService.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Servicios\\UsuarioService.cs",
@@ -354,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "UbicacionRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\UbicacionRepositorio.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Datos\\UbicacionRepositorio.cs",
@@ -366,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "CategoriaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\CategoriaRepositorio.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Datos\\CategoriaRepositorio.cs",
@@ -378,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "ProveedorService.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Servicios\\ProveedorService.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Servicios\\ProveedorService.cs",
@@ -386,11 +553,12 @@
               "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Servicios\\ProveedorService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:34:42.306Z"
+              "WhenOpened": "2024-10-25T17:34:42.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "RolRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\RolRepositorio.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Datos\\RolRepositorio.cs",
@@ -402,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "ProveedorRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Datos\\ProveedorRepositorio.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Datos\\ProveedorRepositorio.cs",
@@ -414,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "CustomException.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Excepciones\\CustomException.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Excepciones\\CustomException.cs",
@@ -426,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "ValidacionUbicacion.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionUbicacion.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionUbicacion.cs",
@@ -438,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "ValidacionCategoria.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionCategoria.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionCategoria.cs",
@@ -450,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 34,
               "Title": "ValidacionRol.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionRol.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionRol.cs",
@@ -462,19 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "frmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:36:23.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "ValidacionUsuario.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionUsuario.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Validaciones\\ValidacionUsuario.cs",
@@ -486,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "RolService.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Servicios\\RolService.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Servicios\\RolService.cs",
@@ -498,66 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Ubicacion.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Ubicacion.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Modelos\\Ubicacion.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Ubicacion.cs",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Modelos\\Ubicacion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:34:22.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Categoria.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Modelos\\Categoria.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Categoria.cs",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Modelos\\Categoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:34:12.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Rol.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Modelos\\Rol.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Modelos\\Rol.cs",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Modelos\\Rol.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:34:03.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "frmPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:20:52.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "frmPrincipal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.Designer.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.Designer.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.Designer.cs",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\frmPrincipal.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:20:50.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "frmAlertas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Configuracion\\frmAlertas.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\Configuracion\\frmAlertas.cs",
@@ -568,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "frmMantenimientos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Configuracion\\frmMantenimientos.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\Configuracion\\frmMantenimientos.cs",
@@ -579,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "frmUbicaciones.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Configuracion\\frmUbicaciones.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\Configuracion\\frmUbicaciones.cs",
@@ -590,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "frmCategorias.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Configuracion\\frmCategorias.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\Configuracion\\frmCategorias.cs",
@@ -601,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "frmRolesPermisos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Configuracion\\frmRolesPermisos.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\Configuracion\\frmRolesPermisos.cs",
@@ -612,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "frmReportes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmReportes.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmReportes.cs",
@@ -623,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "frmUsuarios.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmUsuarios.cs",
               "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmUsuarios.cs",
@@ -631,18 +728,6 @@
               "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\Gestion\\frmUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T17:14:20.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "frmLogin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.Designer.cs",
-              "RelativeDocumentMoniker": "InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.Designer.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\InventarioInstitutoMariaMontessori\\InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.Designer.cs",
-              "RelativeToolTip": "InventarioInstitutoMariaMontessori\\Formularios\\frmLogin.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:17:57.229Z"
             }
           ]
         }
